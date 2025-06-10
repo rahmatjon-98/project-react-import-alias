@@ -485,25 +485,51 @@ function App() {
           <div className="divf2">
             <div>
               <p className="ph3">Resources</p>
-              <p className="ph6">Term life insurance plans</p>
-              <p className="ph6">Insurance calculator</p>
-              <p className="ph6">Guide to life insurance</p>
-              <p className="ph6">Contact</p>
-              <p className="ph6">FAQs</p>
+              <a href="">
+                <p className="ph6">Term life insurance plans</p>
+              </a>
+              <a href="">
+                <p className="ph6">Insurance calculator</p>
+              </a>
+              <a href="">
+                <p className="ph6">Guide to life insurance</p>
+              </a>
+              <a href="">
+                <p className="ph6">Contact</p>
+              </a>
+              <a href="">
+                <p className="ph6">FAQs</p>
+              </a>
             </div>
             <div>
               <p className="ph3">Magazine</p>
-              <p className="ph6">Insurance</p>
-              <p className="ph6">Finances</p>
-              <p className="ph6">Health</p>
-              <p className="ph6">Updates</p>
+              <a href="">
+                <p className="ph6">Insurance</p>
+              </a>
+              <a href="">
+                <p className="ph6">Finances</p>
+              </a>
+              <a href="">
+                <p className="ph6">Health</p>
+              </a>
+              <a href="">
+                <p className="ph6">Updates</p>
+              </a>
             </div>
             <div>
               <p className="ph3">More</p>
-              <p className="ph6">Claims</p>
-              <p className="ph6">Terms</p>
-              <p className="ph6">Privacy</p>
-              <p className="ph6">Licenses</p>
+              <a href="">
+                <p className="ph6">Claims</p>
+              </a>
+              <a href="">
+                <p className="ph6">Terms</p>
+              </a>
+              <a href="">
+                <p className="ph6">Privacy</p>
+              </a>
+              <a href="">
+                <p className="ph6">Licenses</p>
+              </a>
             </div>
           </div>
         </div>
@@ -512,7 +538,9 @@ function App() {
           <p style={{ color: "#5A6482", fontSize: "16px" }}>
             © 2020 Bello insurance Services LLC. All right reserved.
           </p>
-          <button style={{fontWeight:'400'}} className="btnGet">Get my price</button>
+          <button style={{ fontWeight: "400" }} className="btnGet">
+            Get my price
+          </button>
         </div>
       </footer>
     </div>
